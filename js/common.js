@@ -39,6 +39,14 @@ jQuery(document).ready(function (e) {
                     this.reset()
                 })
             }})
-    })
+    });
+
+
+    jQuery('.slider').slick({
+      dots: true,
+      autoplay: true,
+      autoplaySpeed: 8000,
+      mobileFirst: true,
+    });
 });
     
