@@ -71,7 +71,7 @@ body{
 a{
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
-    color: #363f48;
+    color: #4D014C;
 }
 #today {
     color: #363f48;
@@ -173,10 +173,10 @@ img{
     min-height: 0;
 }
 .main_menu ul {
-    float: right;
+    /*float: right;*/
     list-style: none outside none;
-    margin: 0;
-    padding-left: 0;
+    margin: 15px 0;
+    padding-left: 14%;
 }
 .main_menu ul li {
     display: block;
@@ -340,15 +340,6 @@ img{
 }
 .slider {margin: 0;}
 .slider .slide { min-height: 550px; width: 100%; height: 100%;}
-
-.slick-prev {
-    left: 0;
-    background: red;
-}
-.slick-next {
-    right: 0;
-    background: red;
-}
 .slick-dots {
   bottom: -55px;
   color: #fff;
@@ -468,6 +459,78 @@ img{
 
 /*************Featurs section part end********************/
 
+
+
+
+
+.search-button{
+}
+
+.form-control
+{
+    background: #e6e6e6;
+}
+
+.input-group-addon{
+    background: #f2f2f2;
+}
+
+.btn-search{
+  padding-right:10px;
+  text-align:right;
+  background-color: #fd3329;
+  color: #fff;
+  height: 20px;
+  margin: 0 10px;
+  padding: 0;
+  transform: rotate(45deg);
+  transition: all 0.5s ease-in-out 0s;
+  width: 20px;
+}
+
+.btn-search i {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  transform: rotate(-45deg);
+}
+
+
+.title {
+  margin-bottom: 20px;
+}
+/*************activities part********************/
+.activity {
+  border: 2px solid red;
+  padding: 0 15px;
+}
+
+.activity-blk {
+  border-bottom: 1px solid #ccc;
+}
+h4,.activity  h5{
+    font-weight: 600;
+}
+
+.forthcoming-blk {
+  border-bottom: 2px solid #fff;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.forthcoming-date {
+  background: #e6e6e6 none repeat scroll 0 0;
+  min-height: 60px;
+}
+.forthcoming-txt {
+  background: #f2f2f2 none repeat scroll 0 0;
+  min-height: 60px;
+  padding: 10px 5px;
+}
+
+
+/*************activities end********************/
+
 /*************HoW it work part********************/
 
 .works{
@@ -532,7 +595,8 @@ img{
 
 /*************Lattest post part Start********************/
 .title > h2{
-    color:#363f48;
+    color:#8a4500;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.15);
     font-size:38px;
     text-transform: uppercase;
 }
@@ -540,6 +604,9 @@ img{
 .title > p{
     font-size:16px;
 }
+
+.home-gallery-text > h4 { min-height: 60px;}
+.read-more{font-weight: 600;}
 .home-gallery-image{
     margin-top:20px;
 }
@@ -903,6 +970,7 @@ footer{
     background-color:#363f48;
     display:table;
     width:100%;
+    margin-top: 50px;
 }
 .social-media{
     margin-top:25px;
