@@ -351,6 +351,13 @@ img{
 
 
 /************* Featurs Section part start********************/
+
+.gray-bg {background: #F6F6F6; }
+.edu-row{margin: 10px 0px; border-bottom: 2px solid #ddd;
+    border-top: 1px solid #ddd;
+    box-shadow: 3px 3px 5px #ccc;}
+
+    .edu-row img { padding: 15px 0px;}
 .pro-features {
     display: inline-block;
     margin-top: 15px;
