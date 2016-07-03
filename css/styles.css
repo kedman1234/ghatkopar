@@ -76,3 +76,40 @@ div.wpcf7 div.ajax-error {
 div.wpcf7 .placeheld {
 	color: #888;
 }
+
+/* Kedar added */
+/* dental care details page 05/05/2016 */
+.dent-bg, .risenshine-bg , .gp-bg{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	background-color: #ccc;
+	min-height: 300px !important;
+}
+
+.dent-bg {
+	background-image: url(../images/default-sub-page-header-dentist.jpg);
+}
+.dent-bg h2, .risenshine-bg h2, .gp-bg h2{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: #fff !important;
+    text-shadow: 2px 2px 5px #666 !important;
+}
+.table tbody>tr>td.vert-align-middle{
+    vertical-align: middle;
+}
+.padding { padding: 15px;}
+
+article.listing p { padding-left: 30px;}
+
+/* RISE & SHINE CLINIC FOR CHILD DEVELOPMENT details page 05/05/2016 */
+.risenshine-bg {
+	background-image: url(../images/child-development.gif);
+}
+.gp-bg {
+	background-image: url(../images/general-physician.jpg);
+}
