@@ -113,3 +113,26 @@ article.listing p { padding-left: 30px;}
 .gp-bg {
 	background-image: url(../images/general-physician.jpg);
 }
+
+/* Home page */
+
+.parallax-header{
+	background-image: url(../images/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	background-color: #ccc;
+	min-height: 500px !important;
+	position: relative;;
+}
+
+.parallax-header .gbs-services{
+	position: absolute;
+	background: rgba(0,0,0,.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff !important;
+    text-shadow: 2px 2px 5px #666 !important;
+}
